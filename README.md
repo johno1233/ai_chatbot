@@ -8,8 +8,10 @@ Currently, when you run the code `python chatbot.py mistral:latest` the program 
 - I want to add hardware detection so that you can attempt to load a model
   -  If your hardware meets the recommended specs: it will pull the model and run it.
   -  If your hardware doesn't meet the specs: it will throw an error and advise you not to install it with the option to override if desired
-# To run
+# To run: Windows
 - pull repo
-- Start python env: `\chatbot\Scripts\Activate.ps1`
+- create python env: `python -m venv <env name>`
+- Start python env: `.\PATH\TO\Activate.ps1`
 - In python env, run: `python chatbot.py [model name (i.e., mistral:latest)]`
-
+# To run: Linux
+- TBD
