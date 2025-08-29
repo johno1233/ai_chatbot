@@ -1,0 +1,45 @@
+Python-specific ignores
+
+pycache/ *.pyc *.pyo *.pyd *.egg-info/ dist/ build/
+
+Virtual environments
+
+venv/ env/ myenv/ *.venv/
+
+IDE and editor files
+
+.vscode/ .idea/ *.sublime-project *.sublime-workspace
+
+System files
+
+.DS_Store Thumbs.db
+
+Cache and temporary files
+
+*.cache *.log *.tmp *.bak *.swp
+
+Dependency lock files (optional, include if using reproducible builds)
+
+requirements.txt # Uncomment if you use a lock file instead
+
+Pipfile.lock
+
+Ollama model weights (managed by Ollama, typically large)
+
+ollama/ models/ *.bin *.h5 *.pth
+
+Gradio temporary files
+
+gradio_cached_examples/ *.gradio/
+
+Sensitive data
+
+.env *.env *.ini *.secret *.key *.pem
+
+Testing and coverage
+
+.coverage coverage.xml *.cover .pytest_cache/
+
+Miscellaneous
+
+*.bak *.swp *~
