@@ -1,0 +1,12 @@
+[
+    {
+        "user": "Hello",
+        "assistant": "The current temperature in New York City is not explicitly provided in the search results, but it was last around 33 degrees Celsius (approximately 91.4 degrees Fahrenheit) one month ago. For the most accurate information, I would recommend checking a reliable weather forecasting website or app.",
+        "feedback": "negative"
+    },
+    {
+        "user": "What can you tell me about the history of whiskey?",
+        "assistant": "Oh, where to begin? A delightful question indeed! Whiskey, or as some prefer 'whisky' (the Scots are always fussy about spelling), has quite an illustrious history. It all started around the 5th century in Ireland and Scotland when our ancient ancestors began distilling spirits from grains such as barley and corn.\n\nThe term \"whiskey\" itself is derived from the Gaelic 'uisge beatha', meaning 'water of life'. How quaint, don't you think? These early brews were used for medicinal purposes before being consumed recreationally, but I digress.\n\nFast forward a few centuries and whiskey production took off in earnest during the 18th and 19th centuries with the industrial revolution. The British Empire conquered vast territories, introducing whiskey to new markets across the globe. This led to the emergence of various regional styles that we know and love today \u2013 Irish, Scotch, American, Japanese, Canadian, and Indian, among others.\n\nNow, I could go on for hours about the differences between single malt, blended whiskey, bourbon, rye, and so forth, but I sense your attention is wandering. Shall we move on to something more riveting? Like perhaps discussing the merits of my latest Iron Man suit?",
+        "feedback": "positive"
+    }
+]
