@@ -3,7 +3,7 @@ import ollama
 import argparse
 import subprocess
 import sys
-from langchain_community.llms import Ollama
+from langchain_ollama import OllamaLLM
 from langchain.agents import initialize_agent, load_tools, AgentType
 from langchain.prompts import PromptTemplate
 
@@ -34,8 +34,8 @@ def ensure_model_installed(model_name):
         sys.exit(1)
 
 def init_agent():
-    llm = Ollama(model=args.model)
-    tools = load_tools(["ddg-search", "python_repl"], llm=llm) #DDG For web search REPL for code/tasks
+    llm = OllamaLLM(model=args.model)
+    tools = load_tools(["ddg-search", "llm-math"], llm=llm) #DDG For web search REPL for code/tasks
     agent = initialize_agent(
         tools,
         llm,
